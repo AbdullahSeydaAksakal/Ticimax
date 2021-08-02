@@ -121,6 +121,7 @@ namespace UI.Pages
         [Test, Order(7)]
         public void SepetimSayfasindakiSiparisiTamamlaButonunaBas()
         {
+            driver.Manage().Window.FullScreen();
             Thread.Sleep(5000);
             var SepetimSayfasindakiSiparisiTamamlaButonunaBas = driver.FindElement(SepetimSayfasindakiSiparisiTamamlaButtonElement);
             SepetimSayfasindakiSiparisiTamamlaButonunaBas.Click();
@@ -131,6 +132,7 @@ namespace UI.Pages
         [Test, Order(8)]
         public void LoginOl()
         {
+            driver.Manage().Window.FullScreen();
             Thread.Sleep(5000);
             var Eposta = driver.FindElement(EpostaTextBoxElement);
             Eposta.SendKeys("a@mailinator.com");
@@ -139,13 +141,12 @@ namespace UI.Pages
             var GirisYap = driver.FindElement(GirisYapButtonElement);
             GirisYap.Click();
             Thread.Sleep(10000);
-
-
         }
 
         [Test, Order(9)]
         public void SiparisTamamlaSayfasindakiSiparisTamamlaButonunaBas()
         {
+            driver.Manage().Window.FullScreen();
             Thread.Sleep(5000);
             var SiparisTamamlaSayfasindakiSiparisTamamlaButonunaBas = driver.FindElement(SiparisTamamlaSayfasindakiSiparisTamamlaButtonElement);
             SiparisTamamlaSayfasindakiSiparisTamamlaButonunaBas.Click();
@@ -156,6 +157,7 @@ namespace UI.Pages
         [Test, Order(10)]
         public void OdemeSayfasiKapidaOdemButonunaBas()
         {
+            driver.Manage().Window.FullScreen();
             Thread.Sleep(5000);
             var OdemeSayfasiKapidaOdemeyeBas = driver.FindElement(OdemeSayfasiKapidaOdemeButtonElement);
             OdemeSayfasiKapidaOdemeyeBas.Click();
@@ -166,6 +168,7 @@ namespace UI.Pages
         [Test, Order(11)]
         public void OdemeSayfasiSiparisiTamamlaButonunaBasBas()
         {
+            driver.Manage().Window.FullScreen();
             Thread.Sleep(5000);
             var OdemeSayfasiSiparisiTamamlaButonunaBasBas = driver.FindElement(OdemeSayfasiSiparisiTamamlaButtonElement);
             OdemeSayfasiSiparisiTamamlaButonunaBasBas.Click();
@@ -176,13 +179,19 @@ namespace UI.Pages
         [Test, Order(12)]
         public void BilgilendirmeFormuOnayliyorumButonunaBas()
         {
+            driver.Manage().Window.FullScreen();
             Thread.Sleep(5000);
             var BilgilendirmeFormuOnayliyorumButonunaBas = driver.FindElement(BilgilendirmeFormuOnayliyorumButtonElement);
             BilgilendirmeFormuOnayliyorumButonunaBas.Click();
             Thread.Sleep(5000);
-
         }
 
+        [Test, Order(13)]
+        public void SiparisiTamamla()
+        {
+            driver.Manage().Window.FullScreen();
+            Thread.Sleep(5000);
+        }
 
         #endregion
 
