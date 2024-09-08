@@ -1,6 +1,6 @@
 # Ticimax UI Test
 
-Bu proje istenilen senaryonun yapıldığı  test otomasyon web ui projesidir.   <br /><br />
+Bu proje Ticimax E-Ticaret sayfasındaki bir ürünün seçilip sipariş verildiği web otomasyon projesidir   <br /><br />
 
 ## Proje Özellikleri
 * Katmanlı mimari olarak tasarlanmıştır.
