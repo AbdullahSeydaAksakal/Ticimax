@@ -1,36 +1,29 @@
 # Ticimax UI Test
 
-Bu proje Ticimax E-Ticaret sayfasındaki bir ürünün seçilip sipariş verildiği web otomasyon projesidir   <br /><br />
+This project is a web automation project where a product on the Ticimax E-Commerce page is selected and ordered.   <br /><br />
 
-## Proje Özellikleri
-* Katmanlı mimari olarak tasarlanmıştır.
-* Projeye mobil test caseleri katmanı eklenerek otomatize hale getirilebilinir
-* C# dilinde yazılmıştır.
-* C# en güncel frameworkü asp.net core 5.0 ile yazılmıştır.
-* Nunit mimarisi üzerine inşa edilmiştir.
+## Project Features
+* Designed using layered architecture.
+* It can be automated by adding a mobile test case layer to the project
+* Written in C#.
+* Written with the latest C# framework asp.net core 5.0.
+* Built on Nunit architecture.
 * Url: https://test3.ticimax.dev/
-* Host için Microsoft.Net.Test.Sdk kütüphanesi kullanılmıştır.
-* Nunit3TestAdapter yapısı ile testlerin çalışması sağlanmaktadır.
-* Paralel test yapısı kurularak bir den fazla tarayıcı ve testlerin aynı anda yürütülmesi yapılabilinir.
-* Clouda taşınarak sürekli test yapılabilinir.
-* Selenium Web driver ve ChromeWebDriver kütüphaneleri kullanılmıştır
-* Assertion için exception ve actual result eklenebilir yapıdadır
-* Geliştirilmiş Class yapısıyla kurulmuştur. 
-* İlerleyen sürümlerde, Güvenlik, Seo, APi, Yük ve Strees testi gibi katmanlarla proje geliştirilecektir.
-* Gerektiği takdirde Docker ve Container mimarileri kullanılarak birbirimden bağımsız işletim sistemleri ve tarayıcıları üzerinde CrossBrowser Testler yapılacaktır
-* Gerektiği takdirde Veritabanı Mimarisi eklenebilir.
+* Microsoft.Net.Test.Sdk library is used for the host.
+* Tests are run with the Nunit3TestAdapter structure.
+* By establishing a parallel test structure, multiple browsers and tests can be run simultaneously.
+* Continuous testing can be done by moving to the cloud.
+* Selenium Web driver and ChromeWebDriver libraries are used
+* Exception and actual result can be added to Assertion
+* It is established with an improved Class structure.
 
-
-
-
-
-## Task İsterleri
-1. Siteye Gidilir
-2. Abide sayfasında ürün seçilir
-3. Renk ve beden seçilerek ürün sepete eklenir.
-4. Sepetim sayfasında siparişi tamamla denir.
-5. Login olunur.(Kayıtlı kullanıcı yoksa üye olunur)
-6. Adres yoksa adres eklenir varsa siparişi tamamla denilir.
-7. Kapıda ödeme seçilir ve siparişi tamamla denilir
-8. Ön bilgilendirme formu onaylanır
-9. Sipariş tamamlanır ve Sipariş numarasının geldiği görülür.
+## Task Request
+1. Go to the Site
+2. Select the product on the Abide page
+3. Select the color and size and add the product to the cart.
+4. Complete the order on the My Cart page.
+5. Log in. (If there is no registered user, become a member)
+6. If there is no address, add the address, if there is, complete the order.
+7. Select payment at the door and complete the order.
+8. Preliminary information form is approved
+9. The order is completed and the order number is seen.
